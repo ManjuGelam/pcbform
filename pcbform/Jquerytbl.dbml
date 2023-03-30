@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="practice" Class="JquerytblDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=practice;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="practiceConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.jquerytbl" Member="jquerytbls">
+    <Type Name="jquerytbl">
+      <Column Name="sno" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="department" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
